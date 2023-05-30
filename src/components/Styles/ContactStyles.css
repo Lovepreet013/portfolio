@@ -1,0 +1,66 @@
+.touch{
+    background: #0a192f;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+.touch .first{
+    color: #64ffda;
+    font-size: 1.2rem;
+}
+.touch .about{
+    margin: 20px auto;
+    width: 50%;
+    font-size: 1.1rem;
+    color: #8892b0;
+}
+.touch h1{
+    font-size: 3.5rem;
+    color: #ccd6f6;
+    margin: 10px;
+}
+.touch button{
+    padding: 20px 30px;
+    font-size: 15px;
+    background-color: transparent;
+    border: 1px solid #64ffda;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #64ffda;
+    transition: .3s ease-in-out;
+    z-index: 10;
+    margin-top: 10px;
+}
+.touch button a{
+    color: #dbe2f9;
+}
+.touch button:hover{
+    transition: .3s ease-in-out;
+    padding: 20px 40px;
+}
+.touch .social{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin:30px auto;
+}
+.touch .social .links a{
+    margin-top: 60px;
+    margin: 40px; color: #8892b0;
+}
+.touch .social .links a:hover{
+    color: #64ffda;
+}
+@media screen and (max-width:868px) {
+    .touch{
+        padding-top: 30px;
+        padding-bottom: 0px;
+    }
+    .touch .about{
+        height: 150px;
+    }
+    .touch .social{
+        display: flex;
+    }
+}

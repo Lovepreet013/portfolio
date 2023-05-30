@@ -1,0 +1,113 @@
+.hero{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    animation: onload 5s;
+}
+.hero .social{
+    margin: 0 4rem;
+    position: fixed;
+    z-index: 999;
+    top: 40%;
+}
+.social .links{
+    margin: 2rem 0;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+.social .links a{
+    color: #a6b1cf;
+}
+.social .links a:hover{
+    transition: .3s ease-in-out;
+    color: #64ffda;
+    transform: translateY(-15px);
+}
+.line{
+    background-color: #a6b1cf;
+    width: 2px;
+    height: 200px;
+    margin-left: 10px;
+}
+.heroText{
+    margin-left: 13%;
+    transform: translateY(-80px);
+}
+.heroText p:nth-child(1){
+    color: #64ffda;
+    font-size: 1.2rem;
+}
+.heroText h1{
+    font-size: 4.5rem;
+    margin: 0;
+    color:#ccd6f6;
+}
+.heroText h3{
+    font-size: 4.5rem;
+    margin: 0;
+    color: #8892b0;
+}
+.heroText p:nth-child(4){
+    color: #8892b0;
+    width: 35%;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+@media screen and (max-width:868px) {
+    .hero{
+        height: 80vh;
+        width: 90%;
+    }
+    .hero .social{
+        display: none;
+    }
+    .heroText{
+        margin-left: 7%;
+    }
+    .heroText p:nth-child(1){
+        font-size: 1.1rem;
+        letter-spacing: 1px;
+    }
+    .heroText h1{
+        font-size: 3rem;
+        margin: 0;
+    }
+    .heroText h3{
+        font-size: 2.5rem;
+        margin: 0;
+        color: #8892b0;
+    }
+    .heroText p:nth-child(4){
+        width: 70%;
+        color: #8892b0;
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+}
+@media screen and (min-width:1100px){
+    .heroText{
+        transform: translateY(-40px);
+    }
+}
+@media screen and (max-width:968px){
+    .heroText{
+        transform: translateY(-10px);
+    }
+    .image{
+        margin-top: 20px;
+    }
+}
+
+@keyframes onLoad {
+    from{
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}

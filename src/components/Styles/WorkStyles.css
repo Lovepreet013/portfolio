@@ -1,0 +1,108 @@
+.card-container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.wline{
+    background-color: #858fad;
+    width: 350px;
+    height: 1px;
+    margin-left: 20px;
+}
+.work{
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 200px;
+}
+.upper h1{
+    color: #ccd6f6;
+}
+.card{
+    background-color: #112240;
+    width: 300px;
+    height: 280px;
+    position: relative;
+    border-radius: 4px;
+    transition: .3s ease-in-out;
+    margin-top: 10px;
+}
+.card:hover{
+    transform: translateY(-5px);
+    transition: .3s ease-in-out;
+}
+.card:hover h4{
+    color: #64ffda;
+}
+.c-flex{
+    display: flex;
+    flex-direction: column;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.folder{
+    margin: 10px;
+    font-size: 35px;
+    color: #64ffda;
+}
+.go-link{
+    margin: 10px;
+    font-size: 20px;
+    color: #858fad;
+}
+.go-link:hover{
+    color: #64ffda;
+}
+.bottom{
+    margin: 5px 10px;
+}
+.bottom h4{
+    color:#cbd5f5 ;
+    font-size: 20px;
+    margin: 30px 0;
+}
+.bottom .des{
+    color: #ccd6f6;
+    font-weight: 400;
+}
+.bottom .skills{
+    position: absolute;
+    bottom: 5%;
+    letter-spacing: 1px;
+    color: #697492;
+}
+@media screen and (max-width: 868px) {
+    .work{
+        width: 100%;
+        margin-bottom: 200px;
+    }
+    .work .upper{
+        margin: 0 30px;
+        margin-bottom: 50px;
+    }
+    .work .upper h1{
+        font-size: 1.4rem;
+    }
+    .wline{
+        width: 130px;
+    }
+    .card-container{
+        display: flex;
+        justify-content: center;
+    }
+    .card{
+        width: 400px;
+        height: 300px;
+    }
+    .card .bottom{
+        padding: 10px;
+    }
+    .card .bottom h4{
+        font-size: 1.5rem;
+    }
+    .des{
+        font-size: 1.2rem;
+    }
+}
