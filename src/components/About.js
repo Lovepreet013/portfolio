@@ -10,7 +10,6 @@ const About = () => {
                 <div className='Aline'></div>
             </div>
             <p>Hello! My name is Lovepreet and I enjoy creating things that live on the internet. My interest in web development started back in 2020 when I decided to try editing a website created by my brother — turns out hacking together a custom read more button taught me a lot about HTML & CSS!</p>
-            <p>I'm a Full Stack Developer having 1 year+ experience in this field.</p>
             <div>
                 <h3>Here are the some technologies I'm working with recently :</h3>
                 <div className='tech'>
