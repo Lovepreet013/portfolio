@@ -18,10 +18,6 @@ const About = () => {
                         <li>React.js</li>
                         <li>Node.js</li>
                     </ul>    
-                    <ul>
-                        <li>Express.js</li>
-                        <li>MongoDb</li>
-                    </ul>
                 </div>
                 
             </div>
