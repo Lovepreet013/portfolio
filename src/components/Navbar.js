@@ -18,7 +18,7 @@ const Navbar = () => {
             <a href="/" id='about'>About</a>
             <a href="/" id='work'>Work</a>
             <a href="/" id='contact'>Contact</a>
-            <a href="https://drive.google.com/file/d/15yZWVsiliYOlDl1iwatJ9f1CHJY6VCmZ/view?usp=sharing" className='resume' target='_blank'>Resume</a>
+            <a href="#" className='resume'>Resume</a>
         </ul>
         <div className='ham' onClick={handleMenu}>
             <div className='menu'><FontAwesomeIcon icon= {menu.clicked ? faTimes : faBars  } /></div>
